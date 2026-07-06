@@ -1,2 +1,11 @@
 booting oversimplified:
 BIOS -> GRUB1 -> GRUB2 -> OS
+
+AA55 little endian bo x86
+BIOS rozpoznaje jako bootowalne jak to jest na końcu kodu
+7C00 jak rozpozna jako bootowalny jak to jest na początku
+
+basicaly kod wygląda tak:
+[ORG 0x7C00]
+;kod jakiś, trzeba pamiętać o ograniczeniu 512 rekordów na kod!
+DW 0xAA55

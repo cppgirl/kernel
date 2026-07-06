@@ -1,2 +1,5 @@
 1.07.2026
 INITIAL
+
+7.02.2026
+start -> bootloader w nasm, testowanie z qemu
