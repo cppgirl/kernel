@@ -1,1 +1,2 @@
-
+1. przetestować kod bootloadera z qemu
+2. napisać testy automatyczne dla bootloadera
